@@ -1,0 +1,12 @@
+C:\Users\Ammy\Desktop\Hannah\WindowsApp17\WindowsApp17\bin\Debug\WindowsApp17.exe.config
+C:\Users\Ammy\Desktop\Hannah\WindowsApp17\WindowsApp17\bin\Debug\WindowsApp17.exe
+C:\Users\Ammy\Desktop\Hannah\WindowsApp17\WindowsApp17\bin\Debug\WindowsApp17.pdb
+C:\Users\Ammy\Desktop\Hannah\WindowsApp17\WindowsApp17\bin\Debug\WindowsApp17.xml
+C:\Users\Ammy\Desktop\Hannah\WindowsApp17\WindowsApp17\obj\Debug\WindowsApp17.vbprojAssemblyReference.cache
+C:\Users\Ammy\Desktop\Hannah\WindowsApp17\WindowsApp17\obj\Debug\WindowsApp17.Form1.resources
+C:\Users\Ammy\Desktop\Hannah\WindowsApp17\WindowsApp17\obj\Debug\WindowsApp17.Resources.resources
+C:\Users\Ammy\Desktop\Hannah\WindowsApp17\WindowsApp17\obj\Debug\WindowsApp17.vbproj.GenerateResource.cache
+C:\Users\Ammy\Desktop\Hannah\WindowsApp17\WindowsApp17\obj\Debug\WindowsApp17.vbproj.CoreCompileInputs.cache
+C:\Users\Ammy\Desktop\Hannah\WindowsApp17\WindowsApp17\obj\Debug\WindowsApp17.exe
+C:\Users\Ammy\Desktop\Hannah\WindowsApp17\WindowsApp17\obj\Debug\WindowsApp17.xml
+C:\Users\Ammy\Desktop\Hannah\WindowsApp17\WindowsApp17\obj\Debug\WindowsApp17.pdb

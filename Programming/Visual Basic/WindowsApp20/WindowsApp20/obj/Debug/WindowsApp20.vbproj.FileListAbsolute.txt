@@ -1,0 +1,12 @@
+C:\Users\Ammy\Desktop\Hannah\WindowsApp20\WindowsApp20\bin\Debug\WindowsApp20.exe.config
+C:\Users\Ammy\Desktop\Hannah\WindowsApp20\WindowsApp20\bin\Debug\WindowsApp20.exe
+C:\Users\Ammy\Desktop\Hannah\WindowsApp20\WindowsApp20\bin\Debug\WindowsApp20.pdb
+C:\Users\Ammy\Desktop\Hannah\WindowsApp20\WindowsApp20\bin\Debug\WindowsApp20.xml
+C:\Users\Ammy\Desktop\Hannah\WindowsApp20\WindowsApp20\obj\Debug\WindowsApp20.vbprojAssemblyReference.cache
+C:\Users\Ammy\Desktop\Hannah\WindowsApp20\WindowsApp20\obj\Debug\WindowsApp20.StudentGradesForm.resources
+C:\Users\Ammy\Desktop\Hannah\WindowsApp20\WindowsApp20\obj\Debug\WindowsApp20.Resources.resources
+C:\Users\Ammy\Desktop\Hannah\WindowsApp20\WindowsApp20\obj\Debug\WindowsApp20.vbproj.GenerateResource.cache
+C:\Users\Ammy\Desktop\Hannah\WindowsApp20\WindowsApp20\obj\Debug\WindowsApp20.vbproj.CoreCompileInputs.cache
+C:\Users\Ammy\Desktop\Hannah\WindowsApp20\WindowsApp20\obj\Debug\WindowsApp20.exe
+C:\Users\Ammy\Desktop\Hannah\WindowsApp20\WindowsApp20\obj\Debug\WindowsApp20.xml
+C:\Users\Ammy\Desktop\Hannah\WindowsApp20\WindowsApp20\obj\Debug\WindowsApp20.pdb

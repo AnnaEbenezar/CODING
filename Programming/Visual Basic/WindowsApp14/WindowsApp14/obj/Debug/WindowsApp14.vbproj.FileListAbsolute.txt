@@ -1,0 +1,12 @@
+C:\Users\Ammy\Desktop\Hannah\WindowsApp14\WindowsApp14\bin\Debug\WindowsApp14.exe.config
+C:\Users\Ammy\Desktop\Hannah\WindowsApp14\WindowsApp14\bin\Debug\WindowsApp14.exe
+C:\Users\Ammy\Desktop\Hannah\WindowsApp14\WindowsApp14\bin\Debug\WindowsApp14.pdb
+C:\Users\Ammy\Desktop\Hannah\WindowsApp14\WindowsApp14\bin\Debug\WindowsApp14.xml
+C:\Users\Ammy\Desktop\Hannah\WindowsApp14\WindowsApp14\obj\Debug\WindowsApp14.vbprojAssemblyReference.cache
+C:\Users\Ammy\Desktop\Hannah\WindowsApp14\WindowsApp14\obj\Debug\WindowsApp14.Form1.resources
+C:\Users\Ammy\Desktop\Hannah\WindowsApp14\WindowsApp14\obj\Debug\WindowsApp14.Resources.resources
+C:\Users\Ammy\Desktop\Hannah\WindowsApp14\WindowsApp14\obj\Debug\WindowsApp14.vbproj.GenerateResource.cache
+C:\Users\Ammy\Desktop\Hannah\WindowsApp14\WindowsApp14\obj\Debug\WindowsApp14.vbproj.CoreCompileInputs.cache
+C:\Users\Ammy\Desktop\Hannah\WindowsApp14\WindowsApp14\obj\Debug\WindowsApp14.exe
+C:\Users\Ammy\Desktop\Hannah\WindowsApp14\WindowsApp14\obj\Debug\WindowsApp14.xml
+C:\Users\Ammy\Desktop\Hannah\WindowsApp14\WindowsApp14\obj\Debug\WindowsApp14.pdb

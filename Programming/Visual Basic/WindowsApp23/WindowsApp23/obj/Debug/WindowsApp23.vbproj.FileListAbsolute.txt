@@ -1,0 +1,12 @@
+C:\Users\Ammy\Desktop\Hannah\WindowsApp23\WindowsApp23\bin\Debug\WindowsApp23.exe.config
+C:\Users\Ammy\Desktop\Hannah\WindowsApp23\WindowsApp23\bin\Debug\WindowsApp23.exe
+C:\Users\Ammy\Desktop\Hannah\WindowsApp23\WindowsApp23\bin\Debug\WindowsApp23.pdb
+C:\Users\Ammy\Desktop\Hannah\WindowsApp23\WindowsApp23\bin\Debug\WindowsApp23.xml
+C:\Users\Ammy\Desktop\Hannah\WindowsApp23\WindowsApp23\obj\Debug\WindowsApp23.vbprojAssemblyReference.cache
+C:\Users\Ammy\Desktop\Hannah\WindowsApp23\WindowsApp23\obj\Debug\WindowsApp23.Factorial.resources
+C:\Users\Ammy\Desktop\Hannah\WindowsApp23\WindowsApp23\obj\Debug\WindowsApp23.Resources.resources
+C:\Users\Ammy\Desktop\Hannah\WindowsApp23\WindowsApp23\obj\Debug\WindowsApp23.vbproj.GenerateResource.cache
+C:\Users\Ammy\Desktop\Hannah\WindowsApp23\WindowsApp23\obj\Debug\WindowsApp23.vbproj.CoreCompileInputs.cache
+C:\Users\Ammy\Desktop\Hannah\WindowsApp23\WindowsApp23\obj\Debug\WindowsApp23.exe
+C:\Users\Ammy\Desktop\Hannah\WindowsApp23\WindowsApp23\obj\Debug\WindowsApp23.xml
+C:\Users\Ammy\Desktop\Hannah\WindowsApp23\WindowsApp23\obj\Debug\WindowsApp23.pdb

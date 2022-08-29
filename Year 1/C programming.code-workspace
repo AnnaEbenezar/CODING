@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "C Prog"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"string.h": "c"
+		}
+	}
+}

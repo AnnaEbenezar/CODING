@@ -1,0 +1,12 @@
+C:\Users\Ammy\Desktop\Hannah\WindowsApp7\WindowsApp7\bin\Debug\WindowsApp7.exe.config
+C:\Users\Ammy\Desktop\Hannah\WindowsApp7\WindowsApp7\bin\Debug\WindowsApp7.exe
+C:\Users\Ammy\Desktop\Hannah\WindowsApp7\WindowsApp7\bin\Debug\WindowsApp7.pdb
+C:\Users\Ammy\Desktop\Hannah\WindowsApp7\WindowsApp7\bin\Debug\WindowsApp7.xml
+C:\Users\Ammy\Desktop\Hannah\WindowsApp7\WindowsApp7\obj\Debug\WindowsApp7.vbprojAssemblyReference.cache
+C:\Users\Ammy\Desktop\Hannah\WindowsApp7\WindowsApp7\obj\Debug\WindowsApp7.Form1.resources
+C:\Users\Ammy\Desktop\Hannah\WindowsApp7\WindowsApp7\obj\Debug\WindowsApp7.Resources.resources
+C:\Users\Ammy\Desktop\Hannah\WindowsApp7\WindowsApp7\obj\Debug\WindowsApp7.vbproj.GenerateResource.cache
+C:\Users\Ammy\Desktop\Hannah\WindowsApp7\WindowsApp7\obj\Debug\WindowsApp7.vbproj.CoreCompileInputs.cache
+C:\Users\Ammy\Desktop\Hannah\WindowsApp7\WindowsApp7\obj\Debug\WindowsApp7.exe
+C:\Users\Ammy\Desktop\Hannah\WindowsApp7\WindowsApp7\obj\Debug\WindowsApp7.xml
+C:\Users\Ammy\Desktop\Hannah\WindowsApp7\WindowsApp7\obj\Debug\WindowsApp7.pdb

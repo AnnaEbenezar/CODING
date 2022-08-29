@@ -1,0 +1,12 @@
+C:\Users\Ammy\Desktop\Hannah\WindowsApp13\WindowsApp13\bin\Debug\WindowsApp13.exe.config
+C:\Users\Ammy\Desktop\Hannah\WindowsApp13\WindowsApp13\bin\Debug\WindowsApp13.exe
+C:\Users\Ammy\Desktop\Hannah\WindowsApp13\WindowsApp13\bin\Debug\WindowsApp13.pdb
+C:\Users\Ammy\Desktop\Hannah\WindowsApp13\WindowsApp13\bin\Debug\WindowsApp13.xml
+C:\Users\Ammy\Desktop\Hannah\WindowsApp13\WindowsApp13\obj\Debug\WindowsApp13.vbprojAssemblyReference.cache
+C:\Users\Ammy\Desktop\Hannah\WindowsApp13\WindowsApp13\obj\Debug\WindowsApp13.DentalPaymentForm.resources
+C:\Users\Ammy\Desktop\Hannah\WindowsApp13\WindowsApp13\obj\Debug\WindowsApp13.Resources.resources
+C:\Users\Ammy\Desktop\Hannah\WindowsApp13\WindowsApp13\obj\Debug\WindowsApp13.vbproj.GenerateResource.cache
+C:\Users\Ammy\Desktop\Hannah\WindowsApp13\WindowsApp13\obj\Debug\WindowsApp13.vbproj.CoreCompileInputs.cache
+C:\Users\Ammy\Desktop\Hannah\WindowsApp13\WindowsApp13\obj\Debug\WindowsApp13.exe
+C:\Users\Ammy\Desktop\Hannah\WindowsApp13\WindowsApp13\obj\Debug\WindowsApp13.xml
+C:\Users\Ammy\Desktop\Hannah\WindowsApp13\WindowsApp13\obj\Debug\WindowsApp13.pdb

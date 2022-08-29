@@ -1,0 +1,13 @@
+C:\Users\Ammy\Desktop\Hannah\WindowsApp19\WindowsApp19\bin\Debug\Database2.mdb
+C:\Users\Ammy\Desktop\Hannah\WindowsApp19\WindowsApp19\bin\Debug\WindowsApp19.exe.config
+C:\Users\Ammy\Desktop\Hannah\WindowsApp19\WindowsApp19\bin\Debug\WindowsApp19.exe
+C:\Users\Ammy\Desktop\Hannah\WindowsApp19\WindowsApp19\bin\Debug\WindowsApp19.pdb
+C:\Users\Ammy\Desktop\Hannah\WindowsApp19\WindowsApp19\bin\Debug\WindowsApp19.xml
+C:\Users\Ammy\Desktop\Hannah\WindowsApp19\WindowsApp19\obj\Debug\WindowsApp19.vbprojAssemblyReference.cache
+C:\Users\Ammy\Desktop\Hannah\WindowsApp19\WindowsApp19\obj\Debug\WindowsApp19.Form1.resources
+C:\Users\Ammy\Desktop\Hannah\WindowsApp19\WindowsApp19\obj\Debug\WindowsApp19.Resources.resources
+C:\Users\Ammy\Desktop\Hannah\WindowsApp19\WindowsApp19\obj\Debug\WindowsApp19.vbproj.GenerateResource.cache
+C:\Users\Ammy\Desktop\Hannah\WindowsApp19\WindowsApp19\obj\Debug\WindowsApp19.vbproj.CoreCompileInputs.cache
+C:\Users\Ammy\Desktop\Hannah\WindowsApp19\WindowsApp19\obj\Debug\WindowsApp19.exe
+C:\Users\Ammy\Desktop\Hannah\WindowsApp19\WindowsApp19\obj\Debug\WindowsApp19.xml
+C:\Users\Ammy\Desktop\Hannah\WindowsApp19\WindowsApp19\obj\Debug\WindowsApp19.pdb

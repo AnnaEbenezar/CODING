@@ -1,0 +1,13 @@
+C:\Users\Ammy\Desktop\Hannah\Practical Test\Practical Test\obj\Debug\Practical Test.vbprojAssemblyReference.cache
+C:\Users\Ammy\Desktop\Hannah\Practical Test\Practical Test\obj\Debug\Practical_Test.Form1.resources
+C:\Users\Ammy\Desktop\Hannah\Practical Test\Practical Test\obj\Debug\Practical_Test.Form2.resources
+C:\Users\Ammy\Desktop\Hannah\Practical Test\Practical Test\obj\Debug\Practical_Test.Resources.resources
+C:\Users\Ammy\Desktop\Hannah\Practical Test\Practical Test\obj\Debug\Practical Test.vbproj.GenerateResource.cache
+C:\Users\Ammy\Desktop\Hannah\Practical Test\Practical Test\obj\Debug\Practical Test.vbproj.CoreCompileInputs.cache
+C:\Users\Ammy\Desktop\Hannah\Practical Test\Practical Test\bin\Debug\Practical Test.exe.config
+C:\Users\Ammy\Desktop\Hannah\Practical Test\Practical Test\bin\Debug\Practical Test.exe
+C:\Users\Ammy\Desktop\Hannah\Practical Test\Practical Test\bin\Debug\Practical Test.pdb
+C:\Users\Ammy\Desktop\Hannah\Practical Test\Practical Test\bin\Debug\Practical Test.xml
+C:\Users\Ammy\Desktop\Hannah\Practical Test\Practical Test\obj\Debug\Practical Test.exe
+C:\Users\Ammy\Desktop\Hannah\Practical Test\Practical Test\obj\Debug\Practical Test.xml
+C:\Users\Ammy\Desktop\Hannah\Practical Test\Practical Test\obj\Debug\Practical Test.pdb

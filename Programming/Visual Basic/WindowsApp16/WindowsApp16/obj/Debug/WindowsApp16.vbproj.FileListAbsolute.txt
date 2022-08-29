@@ -1,0 +1,12 @@
+C:\Users\Ammy\Desktop\Hannah\WindowsApp16\WindowsApp16\bin\Debug\WindowsApp16.exe.config
+C:\Users\Ammy\Desktop\Hannah\WindowsApp16\WindowsApp16\bin\Debug\WindowsApp16.exe
+C:\Users\Ammy\Desktop\Hannah\WindowsApp16\WindowsApp16\bin\Debug\WindowsApp16.pdb
+C:\Users\Ammy\Desktop\Hannah\WindowsApp16\WindowsApp16\bin\Debug\WindowsApp16.xml
+C:\Users\Ammy\Desktop\Hannah\WindowsApp16\WindowsApp16\obj\Debug\WindowsApp16.vbprojAssemblyReference.cache
+C:\Users\Ammy\Desktop\Hannah\WindowsApp16\WindowsApp16\obj\Debug\WindowsApp16.Form1.resources
+C:\Users\Ammy\Desktop\Hannah\WindowsApp16\WindowsApp16\obj\Debug\WindowsApp16.Resources.resources
+C:\Users\Ammy\Desktop\Hannah\WindowsApp16\WindowsApp16\obj\Debug\WindowsApp16.vbproj.GenerateResource.cache
+C:\Users\Ammy\Desktop\Hannah\WindowsApp16\WindowsApp16\obj\Debug\WindowsApp16.vbproj.CoreCompileInputs.cache
+C:\Users\Ammy\Desktop\Hannah\WindowsApp16\WindowsApp16\obj\Debug\WindowsApp16.exe
+C:\Users\Ammy\Desktop\Hannah\WindowsApp16\WindowsApp16\obj\Debug\WindowsApp16.xml
+C:\Users\Ammy\Desktop\Hannah\WindowsApp16\WindowsApp16\obj\Debug\WindowsApp16.pdb
