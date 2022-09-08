@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1662015495 source:/home/hannah-fon/Desktop/Lab5/main.c
+	<stdio.h>
+	<stdlib.h>
+
