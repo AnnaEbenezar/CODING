@@ -10,23 +10,24 @@ package PPT18;
  */
 public class RecordTest {
 
-    class Record {
+    public static void main(String[] args) {
+        // TODO code application logic here
+        Record id = createRecord(2, "Barney");
 
-        int num;
-        String name;
+        tryObject(id);
+        System.out.println(id);
+
     }
 
-    public class RecordTest {
+    public static void tryObject(Record r) {
+        r.num = 100;
+        r.name = "Fred";
+    }
 
-        public static void main(String args[]) {
-            Record id = new Record();
-            id.num = 2;
-            id.name = "Barney";
-            tryObject(id);
-            System.out.println(id.name + "" + id.num);
-        }
-
-        public static void tryObject(Record r) {
-            r.num = 100;
-            r.name = "Fred";
-        }
+    public static Record createRecord(int num, String name) {
+        Record t = new Record();
+        t.num = num;
+        t.name = "Barney";
+        return t;
+    }
+}

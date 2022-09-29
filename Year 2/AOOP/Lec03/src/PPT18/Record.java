@@ -10,11 +10,15 @@ package PPT18;
  */
 public class Record {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    int num;
+    String name;
+
+    @Override
+    public String toString() {
+        return "Record(" + "num =" + num + ", name = " + name + ")";
     }
-    
+
+    public Record() {
+    }
+
 }

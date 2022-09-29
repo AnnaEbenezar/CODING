@@ -40,7 +40,7 @@ public class Exception1 {
             } catch (InputMismatchException ex) {
                 System.out.println("Illegal Value Found");
                 inputFile.next();
-            }            
+            }
         }
 
         System.out.println("The total value is " + total);
