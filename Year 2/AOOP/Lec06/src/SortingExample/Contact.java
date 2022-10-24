@@ -51,6 +51,5 @@ public class Contact {
     public int compareTo(Object o) {
         //return this.firstName.compareTo(((Contact)o).firstName);
         return this.phoneNum.compareTo(((Contact)o).phoneNum);
-    }    
-    
+    }        
 }

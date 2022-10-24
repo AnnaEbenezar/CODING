@@ -27,14 +27,18 @@ public class PhoneList {
         friends[6] = new Contact("Mario", "Guzman", "804-555-9066");
         friends[7] = new Contact("Marsha", "Grant", "243-555-2837");
 
-        //Sorting.selectionSort(friends);
+//        Sorting.selectionSort(friends);
         for (int i = 0; i < friends.length; i++) {
             System.out.println(friends[i]);
         }
-
-        //Arrays.sort(friends); 
+//        Arrays.sort(friends);
         Arrays.sort(friends, new FirstNameComparator());
-
+        System.out.println();
+        for (int i = 0; i < friends.length; i++) {
+            System.out.println(friends[i]);
+        }
+        Arrays.sort(friends, new PhoneNumComparator());
+        System.out.println();
         for (int i = 0; i < friends.length; i++) {
             System.out.println(friends[i]);
         }

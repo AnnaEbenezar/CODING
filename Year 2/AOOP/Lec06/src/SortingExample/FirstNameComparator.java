@@ -11,8 +11,9 @@ import java.util.Comparator;
  * @author HP
  */
 public class FirstNameComparator implements Comparator {
+
     @Override
     public int compare(Object o1, Object o2) {
-        return ((Contact)o1).getFirstName().compareTo(((Contact)o2).getFirstName());
+        return ((Contact) o1).getFirstName().compareTo(((Contact) o2).getFirstName());
     }
 }

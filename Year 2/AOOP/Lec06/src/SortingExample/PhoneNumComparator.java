@@ -11,9 +11,9 @@ import java.util.Comparator;
  * @author HP
  */
 public class PhoneNumComparator implements Comparator {
-    
+
     @Override
     public int compare(Object o1, Object o2) {
-        return ((Contact)o1).getPhoneNum().compareTo(((Contact)o2).getPhoneNum());
+        return ((Contact) o1).getPhoneNum().compareTo(((Contact) o2).getPhoneNum());
     }
 }

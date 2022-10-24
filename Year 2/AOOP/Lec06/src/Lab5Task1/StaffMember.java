@@ -27,6 +27,7 @@ abstract public class StaffMember {
     // Returns a string including the basic employee information.
     //-----------------------------------------------------------------
 
+    @Override
     public String toString() {
         String result = "Name: " + name + "\n";
         result += "Address: " + address + "\n";
