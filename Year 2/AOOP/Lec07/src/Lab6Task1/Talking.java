@@ -8,6 +8,6 @@ package Lab6Task1;
  *
  * @author HP
  */
-public class Talking {
-    
+public interface Talking {
+    public void talk();
 }

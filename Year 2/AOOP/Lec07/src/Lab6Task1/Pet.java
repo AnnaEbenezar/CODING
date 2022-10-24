@@ -8,6 +8,22 @@ package Lab6Task1;
  *
  * @author HP
  */
-public abstract class Pet implements Animal {
+public abstract class Pet extends Animal {
     
+    private String name;
+
+    protected Pet(String name) {
+        this.name = name;
+    }
+
+    @Override
+    public String toString() {
+        return "Pet{"
+                + "name='" + name + '\''
+                + '}';
+    }
+
+    public String getName() {
+        return name;
+    }
 }

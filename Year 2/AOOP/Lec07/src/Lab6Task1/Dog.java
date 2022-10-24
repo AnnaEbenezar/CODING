@@ -8,6 +8,24 @@ package Lab6Task1;
  *
  * @author HP
  */
-public class Dog {
+public class Dog extends Pet implements Playful, Talking {
     
+    public Dog(String name) {
+        super(name);
+        if (name.isEmpty()) {
+            name = "The Cat";
+        }
+    }    
+    
+    public void move() {
+        System.out.println(this.getName() + " moves");
+    }
+    
+    public void play() {
+        System.out.println(this.getName() + " plays");
+    }
+    
+    public void talk() {
+        System.out.println(this.getName() + " talks");
+    }
 }

@@ -8,6 +8,7 @@ package Lab6Task1;
  *
  * @author HP
  */
-public class Prey {
-    
+public interface Prey {
+    public void isEaten(Predator p);
+    public String getName();
 }

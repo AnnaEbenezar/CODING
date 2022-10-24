@@ -8,6 +8,6 @@ package Lab6Task1;
  *
  * @author HP
  */
-public class Playful {
-    
+public interface Playful {
+    public void play();
 }

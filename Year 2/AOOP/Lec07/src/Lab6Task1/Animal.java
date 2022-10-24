@@ -8,6 +8,6 @@ package Lab6Task1;
  *
  * @author HP
  */
-public interface Animal {
-    
+public abstract class Animal {
+    abstract void move();
 }
