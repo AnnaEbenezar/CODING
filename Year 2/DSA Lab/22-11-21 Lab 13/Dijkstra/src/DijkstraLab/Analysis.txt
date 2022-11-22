@@ -1,0 +1,9 @@
+Time: O(log3(N)) 
+It's due to the if statement where we're dividing n by 3 at every applicable step.
+Space: O(1) 
+Due to not using any extra space.
+Termination condition: n == 1
+
+The code will keep dividing n by 3 or subtracting 1 from n until n == 1, w
+here we can then count the number of steps taken.
+
