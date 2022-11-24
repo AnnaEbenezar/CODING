@@ -1,0 +1,65 @@
+function recursion
+
+int power2_r (int n) {
+  int ID = 64011393;
+  if (( 1 << n - 1) > ID) {
+    return 1 << n - 2;
+  } else {
+    return power2_r(n + 1);
+  }
+}
+
+
+main.c
+
+#include <stdio.h>
+
+int main() {
+  #64011393
+  extern int power2_r(int n);
+  printf("%d\n", power2_r(1));
+}
+
+
+makefile
+
+gcc -o solution -Wall main.c main.s   //check lab 8_4
+
+
+function loop
+
+int power2_l (int n) {
+  int ID = 64011393;
+  while ((1 << n-1 ) <= ID) {
+    n++;
+  }
+  return 1 << n - 2;
+}
+
+https://www.javatpoint.com/factorial-program-in-c
+
+power recursion
+.global power2_r
+
+power2_r:
+
+    PUSH {LR}
+
+    
+    @function
+    CMP R0, #0
+    BEQ base_case
+    
+    @not base case
+    MOV R1, #2
+    SUB R0, R0, #1
+    BL power2_r
+    MUL R0, R0, R1
+    B end
+    
+base_case:
+    MOV R0, #1
+
+end:
+    @ restore LR
+    POP{LR}
