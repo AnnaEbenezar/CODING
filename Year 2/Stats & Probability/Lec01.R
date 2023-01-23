@@ -1,0 +1,6 @@
+age <- c(19,21,32,18,41,55,27,49,38,44)
+hist(age)
+mean(age)
+var(age)
+sd(age)
+summary(age)
