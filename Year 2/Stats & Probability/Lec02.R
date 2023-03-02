@@ -1,0 +1,8 @@
+sample(coin, 1000, prob=c(.3,.7))
+set.seed(4356)
+options(scipen=30)
+x = c(1, 4, 6, 4)
+sum(x)
+sum(x==4)
+cat("dog", 'cat')
+print(c("dog", "cat"))
