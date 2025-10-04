@@ -1,0 +1,99 @@
+start:
+    loadI 0 => r_i
+    cmp_LT r_i, @n => r_cmp
+    cbr r_cmp -> L1, L2
+
+L1:
+    loadAI @m, r_i => r_m_i
+    load r_m_i => r_load_m_i
+    cmp_EQ r_load_m_i, '1' => r_cmp_1
+    cbr r_cmp_1 -> L3, L4
+
+L3:
+    loadI 1 => r_q_i_1
+    storeAI r_q_i_1, @q, r_i
+    jumpI -> L5
+
+L4:
+    cmp_EQ r_load_m_i, '2' => r_cmp_2
+    cbr r_cmp_2 -> L6, L7
+
+L6:
+    loadI 1 => r_q_i_2
+    storeAI r_q_i_2, @q, r_i
+    jumpI -> L5
+
+L7:
+    cmp_EQ r_load_m_i, '3' => r_cmp_3
+    cbr r_cmp_3 -> L8, L9
+
+L8:
+    loadI 1 => r_q_i_3
+    storeAI r_q_i_3, @q, r_i
+    jumpI -> L5
+
+L9:
+    cmp_EQ r_load_m_i, '4' => r_cmp_4
+    cbr r_cmp_4 -> L10, L11
+
+L10:
+    loadI 2 => r_q_i_4
+    storeAI r_q_i_4, @q, r_i
+    jumpI -> L5
+
+L11:
+    cmp_EQ r_load_m_i, '5' => r_cmp_5
+    cbr r_cmp_5 -> L12, L13
+
+L12:
+    loadI 2 => r_q_i_5
+    storeAI r_q_i_5, @q, r_i
+    jumpI -> L5
+
+L13:
+    cmp_EQ r_load_m_i, '6' => r_cmp_6
+    cbr r_cmp_6 -> L14, L15
+
+L14:
+    loadI 2 => r_q_i_6
+    storeAI r_q_i_6, @q, r_i
+    jumpI -> L5
+
+L15:
+    cmp_EQ r_load_m_i, '7' => r_cmp_7
+    cbr r_cmp_7 -> L16, L17
+
+L16:
+    loadI 3 => r_q_i_7
+    storeAI r_q_i_7, @q, r_i
+    jumpI -> L5
+
+L17:
+    cmp_EQ r_load_m_i, '8' => r_cmp_8
+    cbr r_cmp_8 -> L18, L19
+
+L18:
+    loadI 3 => r_q_i_8
+    storeAI r_q_i_8, @q, r_i
+    jumpI -> L5
+
+L19:
+    cmp_EQ r_load_m_i, '9' => r_cmp_9
+    cbr r_cmp_9 -> L20, L21
+
+L20:
+    loadI 3 => r_q_i_9
+    storeAI r_q_i_9, @q, r_i
+    jumpI -> L5
+
+L21:
+    loadI 4 => r_q_i_default
+    storeAI r_q_i_default, @q, r_i
+    jumpI -> L5
+
+L5:
+    addI r_i, 1 => r_i
+    jumpI -> start
+
+L2:
+    end
