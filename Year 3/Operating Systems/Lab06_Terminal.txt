@@ -1,0 +1,23 @@
+annezar@LAPTOP-RHK0L6R8:~$ cd 'OS Lab'
+annezar@LAPTOP-RHK0L6R8:~/OS Lab$ gcc -o Lab06_1 Lab06_1.c
+annezar@LAPTOP-RHK0L6R8:~/OS Lab$ ./Lab06_1
+parent: Waiting for my child to send SIGINT
+child: Sleeping for 5 seconds
+child: Sending SIGINT
+child: Bye
+parent: Bye
+Get SIGINT from child
+annezar@LAPTOP-RHK0L6R8:~/OS Lab$ gcc -o Lab06_2 Lab06_2.c
+annezar@LAPTOP-RHK0L6R8:~/OS Lab$ ./Lab06_2
+Child: my id is 6597
+Child: my id is 6596
+Child: my id is 6598
+Child: my id is 6600
+Child: my id is 6599
+Child: my id is 6599, my parent has just terminated me
+Child: my id is 6597, my parent has just terminated me
+Child: my id is 6598, my parent has just terminated me
+Child: my id is 6600, my parent has just terminated me
+Child: my id is 6596, my parent has just terminated me
+Parent: I have killed all of my children
+annezar@LAPTOP-RHK0L6R8:~/OS Lab$

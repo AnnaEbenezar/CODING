@@ -1,0 +1,14 @@
+annezar@LAPTOP-RHK0L6R8:~$ cd 'OS Lab'
+annezar@LAPTOP-RHK0L6R8:~/OS Lab$ gcc -o Lab02_1 Lab02_1.c
+annezar@LAPTOP-RHK0L6R8:~/OS Lab$ ./Lab02_1
+To quit, enter 0
+Number = ? 1
+To quit, enter 0
+Number = ? 2
+To quit, enter 0
+Number = ? 3
+To quit, enter 0
+Number = ? 0
+Sum: 6
+Average: 2.00
+annezar@LAPTOP-RHK0L6R8:~/OS Lab$

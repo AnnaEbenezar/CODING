@@ -1,0 +1,36 @@
+annezar@LAPTOP-RHK0L6R8:~$ cd 'OS Lab'
+annezar@LAPTOP-RHK0L6R8:~/OS Lab$ gcc -o Lab04 Lab04.c
+annezar@LAPTOP-RHK0L6R8:~/OS Lab$ ./Lab04
+1. ls
+2. date
+3. ps
+0. exit
+Your Selection => 1
+Lab02_1               Lab02_2               Lab03               Lab04          Lab05_1.java
+Lab02_1.c             Lab02_2.c             Lab03.c             Lab04.c        Lab05_2
+Lab02_1_Terminal.txt  Lab02_2_Terminal.txt  Lab03_Terminal.txt  Lab05_1.class  Lab05_2.c
+
+1. ls
+2. date
+3. ps
+0. exit
+Your Selection => 2
+Mon Sep 18 15:22:35 +07 2023
+
+1. ls
+2. date
+3. ps
+0. exit
+Your Selection => 3
+    PID TTY          TIME CMD
+   1087 pts/3    00:00:00 bash
+   1116 pts/3    00:00:00 Lab04
+   1119 pts/3    00:00:00 ps
+
+1. ls
+2. date
+3. ps
+0. exit
+Your Selection => 0
+Good Bye
+annezar@LAPTOP-RHK0L6R8:~/OS Lab$

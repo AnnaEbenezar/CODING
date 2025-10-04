@@ -1,0 +1,21 @@
+annezar@LAPTOP-RHK0L6R8:~$ cd 'OS Lab'
+annezar@LAPTOP-RHK0L6R8:~/OS Lab$ gcc -o Lab02_2 Lab02_2.c
+annezar@LAPTOP-RHK0L6R8:~/OS Lab$ ./Lab02_2
+1. Area
+2. Perimeter
+0. Exit
+Your Selection => 1
+Enter radius: 2
+Area = 12.566370
+1. Area
+2. Perimeter
+0. Exit
+Your Selection => 2
+Enter radius: 2
+Perimeter = 12.566370
+1. Area
+2. Perimeter
+0. Exit
+Your Selection => 0
+Good Bye ^.^
+annezar@LAPTOP-RHK0L6R8:~/OS Lab$

@@ -1,0 +1,32 @@
+annezar@LAPTOP-RHK0L6R8:~$ cd 'OS Lab'
+annezar@LAPTOP-RHK0L6R8:~/OS Lab$ gcc -o Lab03 Lab03.c
+annezar@LAPTOP-RHK0L6R8:~/OS Lab$ ./Lab03
+I am parent
+I am child 0
+I am sub-child 0 of child 0
+I am sub-child 1 of child 0
+I am child 1
+I am sub-child 0 of child 1
+I am sub-child 1 of child 1
+I am sub-child 2 of child 1
+I am sub-child 2 of child 0
+I am sub-child 3 of child 1
+I am child 2
+I am sub-child 4 of child 1
+I am sub-child 3 of child 0
+I am sub-child 0 of child 2
+I am sub-child 1 of child 2
+I am child 3
+I am sub-child 0 of child 3
+I am sub-child 1 of child 3
+I am sub-child 2 of child 3
+I am sub-child 3 of child 2
+I am sub-child 2 of child 2
+I am sub-child 3 of child 3
+I am child 4
+I am sub-child 0 of child 4
+I am sub-child 4 of child 3
+I am sub-child 1 of child 4
+I am sub-child 2 of child 4
+I am sub-child 3 of child 4
+annezar@LAPTOP-RHK0L6R8:~/OS Lab$

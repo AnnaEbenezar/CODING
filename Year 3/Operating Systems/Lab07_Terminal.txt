@@ -1,0 +1,24 @@
+annezar@LAPTOP-RHK0L6R8:~$ cd 'OS Lab'
+annezar@LAPTOP-RHK0L6R8:~/OS Lab$ gcc -o Lab07_1 Lab07_1.c
+annezar@LAPTOP-RHK0L6R8:~/OS Lab$ ./Lab07_1 5
+Parent: waiting for my child
+Child: I am calculating
+Child: the result is 15
+Child: I am sending data
+Child: Goodbye
+Parent: sum from my child is 15
+Parent: Goodbye
+annezar@LAPTOP-RHK0L6R8:~/OS Lab$ gcc -o Lab07_2 Lab07_2.c
+annezar@LAPTOP-RHK0L6R8:~/OS Lab$ ./Lab07_2 5
+Parent: I have created a shared memory for result...
+Parent: I have attached the shared memory...
+Parent: I am about to fork a child process...
+Parent: Waiting for my child
+Child: I am calculating
+Child: The result is 15
+Child: Goodbye
+Parent: sum from my child is 15
+Parent: I have detached the shared memory...
+Parent: I have removed the shared memory...
+Parent: Goodbye
+annezar@LAPTOP-RHK0L6R8:~/OS Lab$

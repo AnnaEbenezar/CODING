@@ -1,0 +1,10 @@
+annezar@LAPTOP-RHK0L6R8:~$ cd 'OS Lab'
+annezar@LAPTOP-RHK0L6R8:~/OS Lab$ javac Lab05_1.java
+annezar@LAPTOP-RHK0L6R8:~/OS Lab$ java Lab05_1
+Enter a number: 5
+The final result is: 70
+annezar@LAPTOP-RHK0L6R8:~/OS Lab$ gcc -o Lab05_2 Lab05_2.c
+annezar@LAPTOP-RHK0L6R8:~/OS Lab$ ./Lab05_2
+Enter a number: 5
+The final result is: 70
+annezar@LAPTOP-RHK0L6R8:~/OS Lab$
