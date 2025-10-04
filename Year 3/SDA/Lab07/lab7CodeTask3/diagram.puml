@@ -1,0 +1,77 @@
+@startuml
+
+interface State {
+    +pressPlay(): boolean
+    +pressPause(): boolean
+    +pressStop(): boolean
+    +pressRewind(): boolean
+}
+
+class Playing {
+    -remote: RemoteDevice
+    +Playing(remote: RemoteDevice)
+    +pressPlay(): boolean
+    +pressPause(): boolean
+    +pressStop(): boolean
+    +pressRewind(): boolean
+}
+
+class Paused {
+    -remote: RemoteDevice
+    +Paused(remote: RemoteDevice)
+    +pressPlay(): boolean
+    +pressPause(): boolean
+    +pressStop(): boolean
+    +pressRewind(): boolean
+}
+
+class Stopped {
+    -remote: RemoteDevice
+    +Stopped(remote: RemoteDevice)
+    +pressPlay(): boolean
+    +pressPause(): boolean
+    +pressStop(): boolean
+    +pressRewind(): boolean
+}
+
+class RemoteDevice {
+    -playing: State
+    -paused: State
+    -stopped: State
+    -locked: boolean
+    -currentState: State
+    -currentPosition: int
+    +RemoteDevice()
+    +setState(currentState: State)
+    +setPosition(position: int)
+    +getPosition(): int
+    +pressPlay()
+    +pressPause()
+    +pressStop()
+    +pressRewind()
+    +unlock()
+    +lock()
+    +getPlayingState(): State
+    +getPausedState(): State
+    +getStoppedState(): State
+    +getRewindState(): State
+}
+
+class RemoteDeviceV1 {
+    -currentState: State
+    +pressPlay()
+    +pressPause()
+    +pressStop()
+}
+
+class TestDrive {
+    +main(args: String[])
+}
+
+RemoteDevice --> State
+
+State <|-- Playing
+State <|-- Paused
+State <|-- Stopped
+
+@enduml

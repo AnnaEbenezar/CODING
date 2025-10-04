@@ -1,0 +1,46 @@
+@startuml
+
+interface Handler {
+    + setSuccessor(successor: Handler): void
+    + handleRequest(emailContent: String): void
+}
+
+class FanHandler {
+    - successor: Handler
+    + setSuccessor(successor: Handler): void
+    + handleRequest(emailContent: String): void
+}
+
+class ComplaintHandler {
+    - successor: Handler
+    + setSuccessor(successor: Handler): void
+    + handleRequest(emailContent: String): void
+}
+
+class NewLocationHandler {
+    - successor: Handler
+    + setSuccessor(successor: Handler): void
+    + handleRequest(emailContent: String): void
+}
+
+class SpamHandler {
+    - successor: Handler
+    + setSuccessor(successor: Handler): void
+    + handleRequest(emailContent: String): void
+}
+
+class CatchAllHandler {
+    - successor: Handler
+    + setSuccessor(successor: Handler): void
+    + handleRequest(emailContent: String): void
+}
+
+Handler <|-- FanHandler
+Handler <|-- ComplaintHandler
+Handler <|-- NewLocationHandler
+Handler <|-- SpamHandler
+Handler <|-- CatchAllHandler
+
+Handler ..> Handler
+
+@enduml

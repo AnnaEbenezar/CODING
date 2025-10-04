@@ -1,0 +1,56 @@
+@startuml
+
+class Mediator {
+    - americanSeller: AmericanSeller
+    - swedishBuyer: SwedishBuyer
+    - frenchBuyer: FrenchBuyer
+    - dollarConverter: DollarConverter
+    + registerAmericanSeller(americanSeller: AmericanSeller)
+    + registerFrenchBuyer(frenchBuyer: FrenchBuyer): void
+    + registerDollarConverter(dollarConverter: DollarConverter): void
+    + placeBid(bid: float, unitOfCurrency: String): boolean
+}
+
+class AmericanSeller {
+    - mediator: Mediator
+    - priceInDollars: float
+    + AmericanSeller(mediator: Mediator, priceInDollars: float)
+    + isBidAccepted(bidInDollars: float): boolean
+}
+
+class Buyer {
+    - mediator: Mediator
+    - unitOfCurrency: String
+    + Buyer(mediator: Mediator, unitOfCurrency: String)
+    + attemptToPurchase(bid: float): boolean
+}
+
+class DollarConverter {
+    - mediator: Mediator
+    + DOLLAR_UNIT: float
+    + EURO_UNIT: float
+    + KRONA_UNIT: float
+    + DollarConverter(mediator: Mediator)
+    + convertCurrencyToDollars(amount: float, unitOfCurrency: String): float
+}
+
+class FrenchBuyer {
+    + FrenchBuyer(mediator: Mediator)
+}
+
+class SwedishBuyer {
+    + SwedishBuyer(mediator: Mediator)
+}
+
+class Demo {
+    + main(args: String[]): void
+}
+
+Mediator -- AmericanSeller
+Mediator -- Buyer
+Mediator -- DollarConverter
+Buyer <|-- FrenchBuyer
+Buyer <|-- SwedishBuyer
+
+
+@enduml

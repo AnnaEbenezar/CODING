@@ -1,0 +1,41 @@
+@startuml
+
+interface AbstractMap {
+    {abstract} + find(key: String): String
+    {abstract} + add(key: String, value: String): void
+}
+
+class Map {
+    - fileName: String
+    - header: String
+    + Map(fileName: String)
+    + find(key: String): String
+    + add(key: String, value: String): void
+}
+
+class MapProxy {
+    - fileName: String
+    - map: Map
+    - hashtable: HashMap
+    + MapProxy(fileName: String)
+    + find(key: String): String
+    + add(key: String, value: String): void
+    - getMap(): Map
+    - get(key: String): String
+    - put(key: String, value: String): void
+}
+
+class Client {
+    - fileName: String
+    - COUNT: int
+    + main(args: String[]): void
+}
+
+AbstractMap <|-- Map
+AbstractMap <|-- MapProxy
+
+Client --> AbstractMap
+
+MapProxy --> Map
+
+@enduml

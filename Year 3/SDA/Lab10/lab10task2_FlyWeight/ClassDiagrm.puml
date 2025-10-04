@@ -1,0 +1,94 @@
+@startuml
+
+abstract class AbstractIcon {
+    + {abstract} draw(Graphics g, int tx, int ty, String name, boolean selected)
+}
+
+class FlyweightDemo extends JFrame {
+    - items: ArrayList<Item>
+    - factory: IconFactory
+    - final Top: int
+    - final Left: int
+    - final W: int
+    - final H: int
+    - final VSpace: int
+    - final HSpace: int
+    - final HCount: int
+    - selectedName: String
+    + FlyweightDemo()
+    + loadItems()
+    + paint(Graphics g)
+    + mouseMoved(MouseEvent e)
+    + mouseDragged(MouseEvent e)
+}
+
+class Item {
+    - type: String
+    - name: String
+    - icon: AbstractIcon
+    + Item(String type, String name, AbstractIcon icon)
+}
+
+class IconFactory {
+    - iconmap: Map<String, AbstractIcon>
+    + createIcon(String key): AbstractIcon
+}
+
+class FolderIcon extends AbstractIcon {
+    - H: final int
+    - iconSel: ImageIcon
+    - iconUnsel: ImageIcon
+    + FolderIcon()
+    + draw(Graphics g, int tx, int ty, String name, boolean sel)
+}
+
+class JavaIcon extends AbstractIcon {
+    - H: final int
+    - icon: ImageIcon
+    + JavaIcon()
+    + draw(Graphics g, int tx, int ty, String name, boolean sel)
+}
+
+class PdfIcon extends AbstractIcon {
+    - H: final int
+    - icon: ImageIcon
+    + PdfIcon()
+    + draw(Graphics g, int tx, int ty, String name, boolean sel)
+}
+
+class PictureIcon extends AbstractIcon {
+    - H: final int
+    - icon: ImageIcon
+    + PictureIcon()
+    + draw(Graphics g, int tx, int ty, String name, boolean sel)
+}
+
+class TextIcon extends AbstractIcon {
+    - H: final int
+    - icon: ImageIcon
+    + TextIcon()
+    + draw(Graphics g, int tx, int ty, String name, boolean sel)
+}
+
+class UnknownIcon extends AbstractIcon {
+    - H: final int
+    - icon: ImageIcon
+    + UnknownIcon()
+    + draw(Graphics g, int tx, int ty, String name, boolean sel)
+}
+
+
+FlyweightDemo "1" *-- "1..*" Item : contains
+FlyweightDemo --> IconFactory
+FlyweightDemo ..> AbstractIcon : uses
+Item --> AbstractIcon
+IconFactory --> AbstractIcon
+IconFactory --> FolderIcon
+IconFactory --> JavaIcon
+IconFactory --> PdfIcon
+IconFactory --> PictureIcon
+IconFactory --> TextIcon
+IconFactory --> UnknownIcon
+
+
+@enduml

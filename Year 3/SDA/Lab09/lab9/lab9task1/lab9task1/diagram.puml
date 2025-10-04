@@ -1,0 +1,113 @@
+@startuml
+
+abstract class Shape {
+  - int x
+  - int y
+  - DrawingService draw
+  {abstract} void draw()
+  void setDrawingService(DrawingService draw)
+}
+
+class Rectangle {
+  - int x2
+  - int y2
+  Rectangle(int x, int y, int x2, int y2)
+  void draw()
+}
+
+class Circle {
+  - int r
+  Circle(int x, int y, int r)
+  void draw()
+}
+
+class Polygon {
+  - int[] xPoints
+  - int[] yPoints
+  - int nPoints
+  Polygon(int[] xPoints, int[] yPoints, int nPoints)
+  void draw()
+}
+
+abstract class DrawingService {
+  {abstract} void drawLine(int x1, int y1, int x2, int y2)
+  {abstract} void drawCircle(int x, int y, int r)
+  {abstract} void drawPolygon(int[] x, int[] y,int n)
+}
+
+class WrapMonitor {
+  - Monitor monitor
+  WrapMonitor()
+  void drawLine(int x1, int y1, int x2, int y2)
+  void drawCircle(int x, int y, int r)
+  void drawPolygon(int[] xPoints, int[] yPoints, int nPoints)
+}
+
+class WrapPrinter {
+  - Printer printer
+  WrapPrinter()
+  void drawLine(int x1, int y1, int x2, int y2)
+  void drawCircle(int x, int y, int r)
+  void drawPolygon(int[] x, int[] y, int z)
+}
+
+class WrapXMLWriter {
+  - XMLWriter writer
+  WrapXMLWriter()
+  void drawLine(int x1, int y1, int x2, int y2)
+  void drawCircle(int x, int y, int r)
+  void drawPolygon(int[] x, int[] y, int z)
+}
+
+class XMLWriter {
+  - static XMLWriter writer
+  + static XMLWriter getWriter()
+  void writeLine(int x1, int y1, int x2, int y2)
+  void writeCircle(int cx, int cy, int r)
+  void writePolygon(int[] x, int[] y, int n)
+}
+
+class Monitor {
+  - static Monitor monitor
+  - List<Arc> arcs
+  - List<Line> lines
+  - List<Polygon> polygons
+  - JFrame frame
+  + static Monitor getMonitor()
+  Monitor()
+  void draw_a_line(int x1, int y1, int x2, int y2)
+  void draw_a_circle(int x, int y, int r)
+  void draw_a_polygon(int[] xPoints, int[] yPoints, int nPoints)
+  void paintComponent(Graphics g)
+}
+
+class Printer {
+  - static Printer printer
+  - List<Arc> arcs
+  - List<Line> lines
+  - List<Polygon> polygons
+  - JFrame frame
+  + static Printer getPrinter()
+  Printer()
+  void drawLine(int x1, int y1, int x2, int y2)
+  void drawCircle(int x, int y, int r)
+  void drawPolygon(int[] xPoints, int[] yPoints, int nPoints)
+  void paint(Graphics g)
+}
+
+Shape <|-- Rectangle
+Shape <|-- Circle
+Shape <|-- Polygon
+
+Shape *-right- DrawingService
+
+XMLWriter <- WrapXMLWriter
+Monitor <- WrapMonitor
+Printer <- WrapPrinter
+
+DrawingService <|-- WrapMonitor
+DrawingService <|-- WrapPrinter
+DrawingService <|-- WrapXMLWriter
+
+
+@enduml

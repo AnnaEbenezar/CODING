@@ -1,0 +1,36 @@
+@startuml
+
+abstract class Bar {
+    -int id
+}
+
+interface Factory {
+    {abstract} Bar create(int id)
+}
+
+class BarProducer {
+    -Factory wonka
+    -int count = 0
+    -int id
+    +BarProducer(int identifier)
+    +run()
+}
+
+class WonkaBar {
+    +WonkaBar(int identifier)
+}
+
+class WonkaBarFactory {
+    -int counter = 0
+    -static WonkaBarFactory uniqueInstance
+    +WonkaBarFactory()
+    +create(int id): Bar
+    +getInstance(): WonkaBarFactory
+}
+
+WonkaBarFactory --|> Factory : implements
+BarProducer --> Factory : *wonka
+BarProducer --> WonkaBarFactory : create
+WonkaBarFactory --> WonkaBar : create
+
+@enduml
